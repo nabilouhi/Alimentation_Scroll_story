@@ -1,506 +1,506 @@
 [
   {
-    "date": 1960,
-    "Bovins": "27,8",
-    "Porcs": "26,1",
-    "Ovins et caprins": "2,6",
-    "Volailles": "9,1",
-    "Autres viandes4": "12,1"
+    "Year": 1960,
+    "Bovins": 27.8,
+    "Porcs": 26.1,
+    "Ovins&caprins": 2.6,
+    "Volailles": 9.1,
+    "Autres_viandes": 12.1
   },
   {
-    "date": 1961,
+    "Year": 1961,
     "Bovins": 28,
-    "Porcs": "26,6",
-    "Ovins et caprins": "2,6",
-    "Volailles": "9,4",
-    "Autres viandes4": "12,6"
+    "Porcs": 26.6,
+    "Ovins&caprins": 2.6,
+    "Volailles": 9.4,
+    "Autres_viandes": 12.6
   },
   {
-    "date": 1962,
-    "Bovins": "28,2",
+    "Year": 1962,
+    "Bovins": 28.2,
     "Porcs": 27,
-    "Ovins et caprins": "2,7",
-    "Volailles": "9,7",
-    "Autres viandes4": "13,1"
+    "Ovins&caprins": 2.7,
+    "Volailles": 9.7,
+    "Autres_viandes": 13.1
   },
   {
-    "date": 1963,
-    "Bovins": "28,5",
-    "Porcs": "27,5",
-    "Ovins et caprins": "2,7",
+    "Year": 1963,
+    "Bovins": 28.5,
+    "Porcs": 27.5,
+    "Ovins&caprins": 2.7,
     "Volailles": 10,
-    "Autres viandes4": "13,2"
+    "Autres_viandes": 13.2
   },
   {
-    "date": 1964,
-    "Bovins": "28,7",
-    "Porcs": "27,9",
-    "Ovins et caprins": "2,8",
-    "Volailles": "10,3",
-    "Autres viandes4": "13,4"
+    "Year": 1964,
+    "Bovins": 28.7,
+    "Porcs": 27.9,
+    "Ovins&caprins": 2.8,
+    "Volailles": 10.3,
+    "Autres_viandes": 13.4
   },
   {
-    "date": 1965,
-    "Bovins": "28,9",
-    "Porcs": "28,4",
-    "Ovins et caprins": "2,8",
-    "Volailles": "10,7",
-    "Autres viandes4": "13,8"
+    "Year": 1965,
+    "Bovins": 28.9,
+    "Porcs": 28.4,
+    "Ovins&caprins": 2.8,
+    "Volailles": 10.7,
+    "Autres_viandes": 13.8
   },
   {
-    "date": 1966,
-    "Bovins": "29,1",
-    "Porcs": "28,8",
-    "Ovins et caprins": "2,8",
+    "Year": 1966,
+    "Bovins": 29.1,
+    "Porcs": 28.8,
+    "Ovins&caprins": 2.8,
     "Volailles": 11,
-    "Autres viandes4": 14
+    "Autres_viandes": 14
   },
   {
-    "date": 1967,
-    "Bovins": "29,3",
-    "Porcs": "29,3",
-    "Ovins et caprins": "2,9",
-    "Volailles": "11,3",
-    "Autres viandes4": "14,7"
+    "Year": 1967,
+    "Bovins": 29.3,
+    "Porcs": 29.3,
+    "Ovins&caprins": 2.9,
+    "Volailles": 11.3,
+    "Autres_viandes": 14.7
   },
   {
-    "date": 1968,
-    "Bovins": "29,6",
-    "Porcs": "29,7",
-    "Ovins et caprins": "2,9",
-    "Volailles": "11,6",
-    "Autres viandes4": 15
+    "Year": 1968,
+    "Bovins": 29.6,
+    "Porcs": 29.7,
+    "Ovins&caprins": 2.9,
+    "Volailles": 11.6,
+    "Autres_viandes": 15
   },
   {
-    "date": 1969,
-    "Bovins": "29,8",
-    "Porcs": "30,2",
-    "Ovins et caprins": 3,
-    "Volailles": "11,9",
-    "Autres viandes4": 15
+    "Year": 1969,
+    "Bovins": 29.8,
+    "Porcs": 30.2,
+    "Ovins&caprins": 3,
+    "Volailles": 11.9,
+    "Autres_viandes": 15
   },
   {
-    "date": 1970,
+    "Year": 1970,
     "Bovins": 30,
-    "Porcs": "30,6",
-    "Ovins et caprins": 3,
-    "Volailles": "12,2",
-    "Autres viandes4": "15,4"
+    "Porcs": 30.6,
+    "Ovins&caprins": 3,
+    "Volailles": 12.2,
+    "Autres_viandes": 15.4
   },
   {
-    "date": 1971,
-    "Bovins": "30,3",
-    "Porcs": "30,9",
-    "Ovins et caprins": "3,1",
-    "Volailles": "12,7",
-    "Autres viandes4": "15,5"
+    "Year": 1971,
+    "Bovins": 30.3,
+    "Porcs": 30.9,
+    "Ovins&caprins": 3.1,
+    "Volailles": 12.7,
+    "Autres_viandes": 15.5
   },
   {
-    "date": 1972,
-    "Bovins": "30,6",
-    "Porcs": "31,2",
-    "Ovins et caprins": "3,2",
-    "Volailles": "13,1",
-    "Autres viandes4": "15,3"
+    "Year": 1972,
+    "Bovins": 30.6,
+    "Porcs": 31.2,
+    "Ovins&caprins": 3.2,
+    "Volailles": 13.1,
+    "Autres_viandes": 15.3
   },
   {
-    "date": 1973,
-    "Bovins": "30,9",
-    "Porcs": "31,6",
-    "Ovins et caprins": "3,3",
-    "Volailles": "13,6",
-    "Autres viandes4": "15,1"
+    "Year": 1973,
+    "Bovins": 30.9,
+    "Porcs": 31.6,
+    "Ovins&caprins": 3.3,
+    "Volailles": 13.6,
+    "Autres_viandes": 15.1
   },
   {
-    "date": 1974,
-    "Bovins": "31,2",
-    "Porcs": "31,9",
-    "Ovins et caprins": "3,4",
+    "Year": 1974,
+    "Bovins": 31.2,
+    "Porcs": 31.9,
+    "Ovins&caprins": 3.4,
     "Volailles": 14,
-    "Autres viandes4": "15,5"
+    "Autres_viandes": 15.5
   },
   {
-    "date": 1975,
-    "Bovins": "31,5",
-    "Porcs": "32,2",
-    "Ovins et caprins": "3,5",
-    "Volailles": "14,5",
-    "Autres viandes4": "15,4"
+    "Year": 1975,
+    "Bovins": 31.5,
+    "Porcs": 32.2,
+    "Ovins&caprins": 3.5,
+    "Volailles": 14.5,
+    "Autres_viandes": 15.4
   },
   {
-    "date": 1976,
-    "Bovins": "31,8",
-    "Porcs": "32,5",
-    "Ovins et caprins": "3,6",
-    "Volailles": "14,9",
-    "Autres viandes4": "15,8"
+    "Year": 1976,
+    "Bovins": 31.8,
+    "Porcs": 32.5,
+    "Ovins&caprins": 3.6,
+    "Volailles": 14.9,
+    "Autres_viandes": 15.8
   },
   {
-    "date": 1977,
-    "Bovins": "32,1",
-    "Porcs": "32,8",
-    "Ovins et caprins": "3,7",
-    "Volailles": "15,4",
-    "Autres viandes4": "16,5"
+    "Year": 1977,
+    "Bovins": 32.1,
+    "Porcs": 32.8,
+    "Ovins&caprins": 3.7,
+    "Volailles": 15.4,
+    "Autres_viandes": 16.5
   },
   {
-    "date": 1978,
-    "Bovins": "32,4",
-    "Porcs": "33,2",
-    "Ovins et caprins": "3,8",
-    "Volailles": "15,8",
-    "Autres viandes4": "16,8"
+    "Year": 1978,
+    "Bovins": 32.4,
+    "Porcs": 33.2,
+    "Ovins&caprins": 3.8,
+    "Volailles": 15.8,
+    "Autres_viandes": 16.8
   },
   {
-    "date": 1979,
-    "Bovins": "32,7",
-    "Porcs": "33,5",
-    "Ovins et caprins": 4,
-    "Volailles": "16,3",
-    "Autres viandes4": "16,6"
+    "Year": 1979,
+    "Bovins": 32.7,
+    "Porcs": 33.5,
+    "Ovins&caprins": 4,
+    "Volailles": 16.3,
+    "Autres_viandes": 16.6
   },
   {
-    "date": 1980,
+    "Year": 1980,
     "Bovins": 33,
-    "Porcs": "33,8",
-    "Ovins et caprins": "4,1",
-    "Volailles": "16,7",
-    "Autres viandes4": "16,7"
+    "Porcs": 33.8,
+    "Ovins&caprins": 4.1,
+    "Volailles": 16.7,
+    "Autres_viandes": 16.7
   },
   {
-    "date": 1981,
-    "Bovins": "32,8",
-    "Porcs": "34,1",
-    "Ovins et caprins": "4,1",
-    "Volailles": "17,1",
-    "Autres viandes4": "16,1"
+    "Year": 1981,
+    "Bovins": 32.8,
+    "Porcs": 34.1,
+    "Ovins&caprins": 4.1,
+    "Volailles": 17.1,
+    "Autres_viandes": 16.1
   },
   {
-    "date": 1982,
-    "Bovins": "32,6",
-    "Porcs": "34,3",
-    "Ovins et caprins": "4,2",
-    "Volailles": "17,4",
-    "Autres viandes4": "15,6"
+    "Year": 1982,
+    "Bovins": 32.6,
+    "Porcs": 34.3,
+    "Ovins&caprins": 4.2,
+    "Volailles": 17.4,
+    "Autres_viandes": 15.6
   },
   {
-    "date": 1983,
-    "Bovins": "32,4",
-    "Porcs": "34,6",
-    "Ovins et caprins": "4,3",
-    "Volailles": "17,8",
-    "Autres viandes4": "15,1"
+    "Year": 1983,
+    "Bovins": 32.4,
+    "Porcs": 34.6,
+    "Ovins&caprins": 4.3,
+    "Volailles": 17.8,
+    "Autres_viandes": 15.1
   },
   {
-    "date": 1984,
-    "Bovins": "32,1",
-    "Porcs": "34,9",
-    "Ovins et caprins": "4,4",
-    "Volailles": "18,1",
-    "Autres viandes4": "14,6"
+    "Year": 1984,
+    "Bovins": 32.1,
+    "Porcs": 34.9,
+    "Ovins&caprins": 4.4,
+    "Volailles": 18.1,
+    "Autres_viandes": 14.6
   },
   {
-    "date": 1985,
-    "Bovins": "31,9",
-    "Porcs": "35,1",
-    "Ovins et caprins": "4,4",
-    "Volailles": "18,5",
-    "Autres viandes4": "14,1"
+    "Year": 1985,
+    "Bovins": 31.9,
+    "Porcs": 35.1,
+    "Ovins&caprins": 4.4,
+    "Volailles": 18.5,
+    "Autres_viandes": 14.1
   },
   {
-    "date": 1986,
-    "Bovins": "31,7",
-    "Porcs": "35,4",
-    "Ovins et caprins": "4,5",
-    "Volailles": "18,8",
-    "Autres viandes4": "13,5"
+    "Year": 1986,
+    "Bovins": 31.7,
+    "Porcs": 35.4,
+    "Ovins&caprins": 4.5,
+    "Volailles": 18.8,
+    "Autres_viandes": 13.5
   },
   {
-    "date": 1987,
-    "Bovins": "31,5",
-    "Porcs": "36,5",
-    "Ovins et caprins": "4,6",
-    "Volailles": "18,5",
-    "Autres viandes4": "13,2"
+    "Year": 1987,
+    "Bovins": 31.5,
+    "Porcs": 36.5,
+    "Ovins&caprins": 4.6,
+    "Volailles": 18.5,
+    "Autres_viandes": 13.2
   },
   {
-    "date": 1988,
-    "Bovins": "30,3",
-    "Porcs": "37,6",
-    "Ovins et caprins": "4,7",
-    "Volailles": "19,4",
-    "Autres viandes4": "13,2"
+    "Year": 1988,
+    "Bovins": 30.3,
+    "Porcs": 37.6,
+    "Ovins&caprins": 4.7,
+    "Volailles": 19.4,
+    "Autres_viandes": 13.2
   },
   {
-    "date": 1989,
-    "Bovins": "30,3",
-    "Porcs": "37,3",
-    "Ovins et caprins": "4,9",
+    "Year": 1989,
+    "Bovins": 30.3,
+    "Porcs": 37.3,
+    "Ovins&caprins": 4.9,
     "Volailles": 21,
-    "Autres viandes4": "11,6"
+    "Autres_viandes": 11.6
   },
   {
-    "date": 1990,
-    "Bovins": "29,8",
-    "Porcs": "37,1",
-    "Ovins et caprins": "5,4",
+    "Year": 1990,
+    "Bovins": 29.8,
+    "Porcs": 37.1,
+    "Ovins&caprins": 5.4,
     "Volailles": 21,
-    "Autres viandes4": 12
+    "Autres_viandes": 12
   },
   {
-    "date": 1991,
+    "Year": 1991,
     "Bovins": 30,
-    "Porcs": "37,1",
-    "Ovins et caprins": "5,6",
-    "Volailles": "21,9",
-    "Autres viandes4": 11
+    "Porcs": 37.1,
+    "Ovins&caprins": 5.6,
+    "Volailles": 21.9,
+    "Autres_viandes": 11
   },
   {
-    "date": 1992,
-    "Bovins": "29,8",
-    "Porcs": "37,5",
-    "Ovins et caprins": "5,6",
-    "Volailles": "21,9",
-    "Autres viandes4": "11,5"
+    "Year": 1992,
+    "Bovins": 29.8,
+    "Porcs": 37.5,
+    "Ovins&caprins": 5.6,
+    "Volailles": 21.9,
+    "Autres_viandes": 11.5
   },
   {
-    "date": 1993,
-    "Bovins": "28,6",
-    "Porcs": "38,1",
-    "Ovins et caprins": "5,5",
-    "Volailles": "20,9",
-    "Autres viandes4": "10,4"
+    "Year": 1993,
+    "Bovins": 28.6,
+    "Porcs": 38.1,
+    "Ovins&caprins": 5.5,
+    "Volailles": 20.9,
+    "Autres_viandes": 10.4
   },
   {
-    "date": 1994,
-    "Bovins": "27,4",
-    "Porcs": "36,2",
-    "Ovins et caprins": "5,4",
-    "Volailles": "22,4",
-    "Autres viandes4": "9,6"
+    "Year": 1994,
+    "Bovins": 27.4,
+    "Porcs": 36.2,
+    "Ovins&caprins": 5.4,
+    "Volailles": 22.4,
+    "Autres_viandes": 9.6
   },
   {
-    "date": 1995,
-    "Bovins": "28,1",
-    "Porcs": "35,9",
-    "Ovins et caprins": "5,3",
-    "Volailles": "22,6",
-    "Autres viandes4": "9,6"
+    "Year": 1995,
+    "Bovins": 28.1,
+    "Porcs": 35.9,
+    "Ovins&caprins": 5.3,
+    "Volailles": 22.6,
+    "Autres_viandes": 9.6
   },
   {
-    "date": 1996,
-    "Bovins": "25,8",
-    "Porcs": "35,2",
-    "Ovins et caprins": "5,3",
-    "Volailles": "24,5",
-    "Autres viandes4": 9
+    "Year": 1996,
+    "Bovins": 25.8,
+    "Porcs": 35.2,
+    "Ovins&caprins": 5.3,
+    "Volailles": 24.5,
+    "Autres_viandes": 9
   },
   {
-    "date": 1997,
-    "Bovins": "26,2",
-    "Porcs": "34,6",
-    "Ovins et caprins": 5,
-    "Volailles": "24,4",
-    "Autres viandes4": "8,3"
+    "Year": 1997,
+    "Bovins": 26.2,
+    "Porcs": 34.6,
+    "Ovins&caprins": 5,
+    "Volailles": 24.4,
+    "Autres_viandes": 8.3
   },
   {
-    "date": 1998,
-    "Bovins": "26,9",
-    "Porcs": "37,2",
-    "Ovins et caprins": 5,
-    "Volailles": "24,7",
-    "Autres viandes4": "8,1"
+    "Year": 1998,
+    "Bovins": 26.9,
+    "Porcs": 37.2,
+    "Ovins&caprins": 5,
+    "Volailles": 24.7,
+    "Autres_viandes": 8.1
   },
   {
-    "date": 1999,
+    "Year": 1999,
     "Bovins": 27,
-    "Porcs": "36,8",
-    "Ovins et caprins": 5,
-    "Volailles": "24,4",
-    "Autres viandes4": "8,6"
+    "Porcs": 36.8,
+    "Ovins&caprins": 5,
+    "Volailles": 24.4,
+    "Autres_viandes": 8.6
   },
   {
-    "date": 2000,
-    "Bovins": "25,7",
-    "Porcs": "35,2",
-    "Ovins et caprins": "4,7",
-    "Volailles": "21,4",
-    "Autres viandes4": 8
+    "Year": 2000,
+    "Bovins": 25.7,
+    "Porcs": 35.2,
+    "Ovins&caprins": 4.7,
+    "Volailles": 21.4,
+    "Autres_viandes": 8
   },
   {
-    "date": 2001,
-    "Bovins": "25,3",
-    "Porcs": "35,5",
-    "Ovins et caprins": "3,8",
-    "Volailles": "23,2",
-    "Autres viandes4": "8,5"
+    "Year": 2001,
+    "Bovins": 25.3,
+    "Porcs": 35.5,
+    "Ovins&caprins": 3.8,
+    "Volailles": 23.2,
+    "Autres_viandes": 8.5
   },
   {
-    "date": 2002,
-    "Bovins": "27,1",
-    "Porcs": "35,5",
-    "Ovins et caprins": "4,1",
-    "Volailles": "22,2",
-    "Autres viandes4": "7,7"
+    "Year": 2002,
+    "Bovins": 27.1,
+    "Porcs": 35.5,
+    "Ovins&caprins": 4.1,
+    "Volailles": 22.2,
+    "Autres_viandes": 7.7
   },
   {
-    "date": 2003,
-    "Bovins": "26,3",
-    "Porcs": "35,4",
-    "Ovins et caprins": "3,9",
-    "Volailles": "21,8",
-    "Autres viandes4": 8
+    "Year": 2003,
+    "Bovins": 26.3,
+    "Porcs": 35.4,
+    "Ovins&caprins": 3.9,
+    "Volailles": 21.8,
+    "Autres_viandes": 8
   },
   {
-    "date": 2004,
+    "Year": 2004,
     "Bovins": 25,
-    "Porcs": "34,4",
-    "Ovins et caprins": "3,8",
-    "Volailles": "21,4",
-    "Autres viandes4": "6,9"
+    "Porcs": 34.4,
+    "Ovins&caprins": 3.8,
+    "Volailles": 21.4,
+    "Autres_viandes": 6.9
   },
   {
-    "date": 2005,
-    "Bovins": "26,1",
-    "Porcs": "33,8",
-    "Ovins et caprins": "3,8",
-    "Volailles": "21,7",
-    "Autres viandes4": "7,1"
+    "Year": 2005,
+    "Bovins": 26.1,
+    "Porcs": 33.8,
+    "Ovins&caprins": 3.8,
+    "Volailles": 21.7,
+    "Autres_viandes": 7.1
   },
   {
-    "date": 2006,
-    "Bovins": "25,4",
-    "Porcs": "33,7",
-    "Ovins et caprins": "3,8",
-    "Volailles": "21,7",
-    "Autres viandes4": "6,7"
+    "Year": 2006,
+    "Bovins": 25.4,
+    "Porcs": 33.7,
+    "Ovins&caprins": 3.8,
+    "Volailles": 21.7,
+    "Autres_viandes": 6.7
   },
   {
-    "date": 2007,
-    "Bovins": "25,7",
-    "Porcs": "34,2",
-    "Ovins et caprins": "3,6",
-    "Volailles": "22,7",
-    "Autres viandes4": "6,9"
+    "Year": 2007,
+    "Bovins": 25.7,
+    "Porcs": 34.2,
+    "Ovins&caprins": 3.6,
+    "Volailles": 22.7,
+    "Autres_viandes": 6.9
   },
   {
-    "date": 2008,
-    "Bovins": "25,1",
-    "Porcs": "33,9",
-    "Ovins et caprins": "3,5",
-    "Volailles": "22,9",
-    "Autres viandes4": "4,3"
+    "Year": 2008,
+    "Bovins": 25.1,
+    "Porcs": 33.9,
+    "Ovins&caprins": 3.5,
+    "Volailles": 22.9,
+    "Autres_viandes": 4.3
   },
   {
-    "date": 2009,
-    "Bovins": "25,3",
-    "Porcs": "33,2",
-    "Ovins et caprins": "3,3",
-    "Volailles": "22,9",
-    "Autres viandes4": "4,9"
+    "Year": 2009,
+    "Bovins": 25.3,
+    "Porcs": 33.2,
+    "Ovins&caprins": 3.3,
+    "Volailles": 22.9,
+    "Autres_viandes": 4.9
   },
   {
-    "date": 2010,
-    "Bovins": "25,3",
-    "Porcs": "33,1",
-    "Ovins et caprins": "3,1",
-    "Volailles": "23,8",
-    "Autres viandes4": "4,6"
+    "Year": 2010,
+    "Bovins": 25.3,
+    "Porcs": 33.1,
+    "Ovins&caprins": 3.1,
+    "Volailles": 23.8,
+    "Autres_viandes": 4.6
   },
   {
-    "date": 2011,
-    "Bovins": "24,8",
-    "Porcs": "32,3",
-    "Ovins et caprins": 3,
-    "Volailles": "22,9",
-    "Autres viandes4": 4
+    "Year": 2011,
+    "Bovins": 24.8,
+    "Porcs": 32.3,
+    "Ovins&caprins": 3,
+    "Volailles": 22.9,
+    "Autres_viandes": 4
   },
   {
-    "date": 2012,
-    "Bovins": "24,4",
-    "Porcs": "32,3",
-    "Ovins et caprins": "2,9",
-    "Volailles": "23,8",
-    "Autres viandes4": "3,5"
+    "Year": 2012,
+    "Bovins": 24.4,
+    "Porcs": 32.3,
+    "Ovins&caprins": 2.9,
+    "Volailles": 23.8,
+    "Autres_viandes": 3.5
   },
   {
-    "date": 2013,
-    "Bovins": "23,6",
+    "Year": 2013,
+    "Bovins": 23.6,
     "Porcs": 32,
-    "Ovins et caprins": "2,8",
-    "Volailles": "24,1",
-    "Autres viandes4": "3,4"
+    "Ovins&caprins": 2.8,
+    "Volailles": 24.1,
+    "Autres_viandes": 3.4
   },
   {
-    "date": 2014,
-    "Bovins": "23,9",
-    "Porcs": "32,7",
-    "Ovins et caprins": "2,8",
-    "Volailles": "24,7",
-    "Autres viandes4": "3,2"
+    "Year": 2014,
+    "Bovins": 23.9,
+    "Porcs": 32.7,
+    "Ovins&caprins": 2.8,
+    "Volailles": 24.7,
+    "Autres_viandes": 3.2
   },
   {
-    "date": 2015,
-    "Bovins": "23,5",
-    "Porcs": "33,2",
-    "Ovins et caprins": "2,6",
-    "Volailles": "25,5",
-    "Autres viandes4": "3,2"
+    "Year": 2015,
+    "Bovins": 23.5,
+    "Porcs": 33.2,
+    "Ovins&caprins": 2.6,
+    "Volailles": 25.5,
+    "Autres_viandes": 3.2
   },
   {
-    "date": 2016,
-    "Bovins": "23,3",
-    "Porcs": "32,7",
-    "Ovins et caprins": "2,6",
-    "Volailles": "25,8",
-    "Autres viandes4": "3,2"
+    "Year": 2016,
+    "Bovins": 23.3,
+    "Porcs": 32.7,
+    "Ovins&caprins": 2.6,
+    "Volailles": 25.8,
+    "Autres_viandes": 3.2
   },
   {
-    "date": 2017,
-    "Bovins": "22,9",
-    "Porcs": "32,6",
-    "Ovins et caprins": "2,5",
-    "Volailles": "26,3",
-    "Autres viandes4": "3,3"
+    "Year": 2017,
+    "Bovins": 22.9,
+    "Porcs": 32.6,
+    "Ovins&caprins": 2.5,
+    "Volailles": 26.3,
+    "Autres_viandes": 3.3
   },
   {
-    "date": 2018,
-    "Bovins": "23,3",
-    "Porcs": "32,8",
-    "Ovins et caprins": "2,5",
+    "Year": 2018,
+    "Bovins": 23.3,
+    "Porcs": 32.8,
+    "Ovins&caprins": 2.5,
     "Volailles": 28,
-    "Autres viandes4": 3
+    "Autres_viandes": 3
   },
   {
-    "date": 2019,
+    "Year": 2019,
     "Bovins": 23,
-    "Porcs": "31,7",
-    "Ovins et caprins": "2,5",
-    "Volailles": "28,4",
-    "Autres viandes4": 3
+    "Porcs": 31.7,
+    "Ovins&caprins": 2.5,
+    "Volailles": 28.4,
+    "Autres_viandes": 3
   },
   {
-    "date": 2020,
-    "Bovins": "22,3",
-    "Porcs": "31,4",
-    "Ovins et caprins": "2,4",
-    "Volailles": "28,2",
-    "Autres viandes4": "5,6"
+    "Year": 2020,
+    "Bovins": 22.3,
+    "Porcs": 31.4,
+    "Ovins&caprins": 2.4,
+    "Volailles": 28.2,
+    "Autres_viandes": 5.6
   },
   {
-    "date": 2021,
-    "Bovins": "22,2",
-    "Porcs": "31,7",
-    "Ovins et caprins": "2,3",
-    "Volailles": "28,3",
-    "Autres viandes4": "4,7"
+    "Year": 2021,
+    "Bovins": 22.2,
+    "Porcs": 31.7,
+    "Ovins&caprins": 2.3,
+    "Volailles": 28.3,
+    "Autres_viandes": 4.7
   },
   {
-    "date": "2022p",
-    "Bovins": "22,1",
-    "Porcs": "32,1",
-    "Ovins et caprins": "2,2",
-    "Volailles": "27,9",
-    "Autres viandes4": "4,7"
+    "Year": 2022,
+    "Bovins": 22.1,
+    "Porcs": 32.1,
+    "Ovins&caprins": 2.2,
+    "Volailles": 27.9,
+    "Autres_viandes": 4.7
   }
 ]
