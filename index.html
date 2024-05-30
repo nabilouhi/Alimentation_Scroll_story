@@ -13,10 +13,12 @@
       font-size: 12px;
       text-anchor: end;
     }
+    .Bigdate{position: absolute; bottom:3px; right:3px}
   </style>
 </head>
 <body>
   <svg width="900" height="400"></svg>
+  <h3 id="date_step" class="Bigdate"></h3>
 </body>
 <script type="text/javascript">
   
@@ -45,6 +47,7 @@ d3.json("data.json").then(data => {
   const dates = data.map(d => d.Year);
 
   const update = (date_step) => {
+    document.getElementById("date_step").innerHTML=date_step
     const v = data.find(d => d.Year === date_step)
     const values = [
           { name: "Bovins", value: v.Bovins },
