@@ -30,7 +30,7 @@ const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.t
 
 const x = d3.scaleLinear().range([0, width]);
 const y = d3.scaleBand().range([0, height]).padding(0.1);
-const index = 0;  
+var index = 0;  
 
 d3.json("data.json").then(data => {
   const dates = data.map(d => d.Year);
