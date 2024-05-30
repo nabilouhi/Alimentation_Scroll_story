@@ -33,12 +33,18 @@ const y = d3.scaleBand().range([0, height]).padding(0.1);
 const index = 0;  
 
 d3.json("data.json").then(data => {
-  const dates = data.map(d => d.date);
-  
+  const dates = data.map(d => d.Year);
 
-  const update = (date) => {
-    const values = data.find(d => d.date === date)
-    console.log(values)
+  const update = (date_step) => {
+    const v = data.find(d => d.Year === date_step)
+    const values = [
+          { name: "Bovins", value: v.Bovins },
+          { name: "Porcs", value: v.Porcs },
+          { name: "Ovins&caprins", value: v["Ovins&caprins"] },
+          { name: "Volailles", value: v.Volailles },
+          { name: "Autres_viandes", value: v["Autres_viandes"] }
+        ];
+
     x.domain([0, d3.max(values, d => d.value)]);
     y.domain(values.map(d => d.name));
     
