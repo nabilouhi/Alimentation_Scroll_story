@@ -16,7 +16,7 @@
   </style>
 </head>
 <body>
-  <svg width="800" height="600"></svg>
+  <svg width="900" height="400"></svg>
 </body>
 <script type="text/javascript">
   
@@ -81,9 +81,9 @@ d3.json("data.json").then(data => {
             .attr("class", "bar-image")
             .attr("xlink:href", d => imageMap[d.name])
             .attr("x", d => x(d.value) + 5)  // Positionnement à droite de la barre
-            .attr("y", d => y(d.name) + (y.bandwidth() - 24) / 2)  // Centré verticalement
-            .attr("width", 24)
-            .attr("height", 24);
+            .attr("y", d => y(d.name) + (y.bandwidth() - 30) / 2)  // Centré verticalement
+            .attr("width", 30)
+            .attr("height", 30);
   };
 
   const step = () => {
