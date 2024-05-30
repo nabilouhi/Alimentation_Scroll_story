@@ -76,7 +76,7 @@ d3.json("data.json").then(data => {
         .text(d => d.value);
     
     g.selectAll(".bar-image")
-          .data(formattedData, d => d.name)
+          .data(values, d => d.name)
           .join("image")
             .attr("class", "bar-image")
             .attr("xlink:href", d => imageMap[d.name])
