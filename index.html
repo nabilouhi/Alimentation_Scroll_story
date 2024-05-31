@@ -17,7 +17,7 @@
       font-size: 12px;
       text-anchor: end;
     }
-    .Bigdate{position: absolute; bottom:3px; right:3px}
+    .Bigdate{position: absolute; font-size:50px; bottom:3px; right:10px}
   </style>
 </head>
 <body>
@@ -103,7 +103,7 @@ d3.json("data.json").then(data => {
         interval = setInterval(() => {
           update(dates[index]);
           index = (index + 1) % dates.length;
-        }, 100); 
+        }, 200); 
       };
    
   document.getElementById("start-button").addEventListener("click", startAnimation);
