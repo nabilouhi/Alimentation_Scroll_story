@@ -17,13 +17,14 @@
       font-size: 12px;
       text-anchor: end;
     }
-    .Bigdate{position: absolute; font-size:50px; bottom:3px; right:10px}
+    .Bigdate{position: absolute; font-size:100px; bottom:3px; right:10px}
   </style>
 </head>
 <body>
+  <h3 id="date_step" class="Bigdate"></h3>
   <button id="start-button">Start</button>
   <svg width="900" height="400"></svg>
-  <h3 id="date_step" class="Bigdate"></h3>
+  
 </body>
 <script type="text/javascript">
   
@@ -49,10 +50,10 @@ d3.json("data.json").then(data => {
     const v = data.find(d => d.Year === date_step)
     const values = [
           { name: "Volaille", value: v.Volaille },
-          { name: "Vin", value: v.Vin },
+         // { name: "Vin", value: v.Vin },
           { name: "Oranges", value: v.Oranges },
           { name: "Pommes", value: v.Pommes },
-          { name: "Pêches", value: v["Pêches"] },
+          //{ name: "Pêches", value: v["Pêches"] },
           { name: "Tomates", value: v.Tomates },
           { name: "Huiles végétales", value: v["Huiles_végétales"] },
           { name: "Sucre", value: v.Sucre },
