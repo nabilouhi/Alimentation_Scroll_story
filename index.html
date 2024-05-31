@@ -75,7 +75,7 @@ d3.json("data.json").then(data => {
           { name: "Fromage", value: v.Fromage },
           { name: "Œufs", value: v.Œufs }
         ];
-    values.sort((a, b) => b.value - a.value);
+    
     x.domain([0, d3.max(values, d => d.value)]);
     y.domain(values.map(d => d.name));
     
