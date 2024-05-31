@@ -48,7 +48,7 @@ d3.json("data.json").then(data => {
   const update = (date_step) => {
     document.getElementById("date_step").innerHTML=date_step
     const v = data.find(d => d.Year === date_step)
-    const values = [
+    const formattedData = [
           { name: "Volaille", value: v.Volaille },
          // { name: "Vin", value: v.Vin },
           { name: "Oranges", value: v.Oranges },
