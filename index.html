@@ -51,11 +51,25 @@ d3.json("data.json").then(data => {
     document.getElementById("date_step").innerHTML=date_step
     const v = data.find(d => d.Year === date_step)
     const values = [
-          { name: "Bovins", value: v.Bovins },
-          { name: "Porcs", value: v.Porcs },
-          { name: "Ovins&caprins", value: v["Ovins&caprins"] },
-          { name: "Volailles", value: v.Volailles },
-          { name: "Autres_viandes", value: v["Autres_viandes"] }
+          { name: "Volaille", value: v.Volaille },
+          { name: "Autres_viandes", value: v["Autres_viandes"] },
+          { name: "Vin", value: v.Vin },
+          { name: "Oranges", value: v.Oranges },
+          { name: "Pommes", value: v.Pommes },
+          { name: "Pêches", value: v["Pêches"] },
+          { name: "Tomates", value: v.Tomates },
+          { name: "Huiles végétales", value: v["Huiles_végétales"] },
+          { name: "Sucre", value: v.Sucre },
+          { name: "Pommes de terre", value: v["Pommes_de_terre"] },
+          { name: "Céréales", value: v["Céréales"] },
+          { name: "Légumes secs", value: v["Légumes_secs"]  },
+          { name: "Bovine", value: v.Bovine },
+          { name: "Porcine", value: v.Porcine },
+          { name: "Autres viandes", value: v["Autres_viandes"] },
+          { name: "Lait", value: v.Lait },
+          { name: "Yaourt", value: v.Yaourt },
+          { name: "Fromage", value: v.Fromage },
+          { name: "Œufs", value: v.Œufs }
         ];
 
     x.domain([0, d3.max(values, d => d.value)]);
