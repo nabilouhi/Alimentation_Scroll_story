@@ -68,43 +68,83 @@ d3.json("data.json").then(data => {
           { name: "Fromage", value: v.Fromage },
           { name: "Œufs", value: v.Œufs }
         ];
-    values.sort((a, b) => b.value - a.value);
-    x.domain([0, d3.max(values, d => d.value)]);
-    y.domain(values.map(d => d.name));
-    
-    g.selectAll(".bar")
-      .data(values, d => d.name)
-      .join("rect")
-        .attr("class", "bar")
-        .attr("x", 0)
-        .attr("y", d => y(d.name))
-        .attr("width", d => x(d.value))
-        .attr("height", y.bandwidth());
 
-    g.selectAll(".axis-label")
-      .data(values, d => d.name)
-      .join("text")
-        .attr("class", "axis-label")
-        .attr("x", d => x(d.value) - 3)
-        .attr("y", d => y(d.name) + y.bandwidth() / 2)
-        .attr("dy", "0.35em")
-        .text(d => d.value);
+     // Trier les données du plus grand au plus petit
+        formattedData.sort((a, b) => b.value - a.value);
+
+        // Définir le domaine de l'échelle x
+        x.domain([0, d3.max(formattedData, d => d.value)]);
+        y.domain(formattedData.map(d => d.name));
+
+        // Sélectionner les barres existantes
+        const bars = g.selectAll(".bar")
+          .data(formattedData, d => d.name);
+
+        // Ajouter les nouvelles barres ou mettre à jour les existantes
+        bars.enter()
+          .append("rect")
+          .attr("class", "bar")
+          .attr("x", 0)
+          .attr("y", d => y(d.name))
+          .attr("width", d => x(d.value))
+          .attr("height", y.bandwidth())
+          .merge(bars)
+          .transition()
+          .duration(1000)
+          .attr("y", d => y(d.name))
+          .attr("width", d => x(d.value));
+
+        // Sélectionner les labels de valeur existants
+        const labels = g.selectAll(".axis-label")
+          .data(formattedData, d => d.name);
+
+        // Ajouter les nouveaux labels ou mettre à jour les existants
+        labels.enter()
+          .append("text")
+          .attr("class", "axis-label")
+          .attr("x", d => x(d.value) - 3)
+          .attr("y", d => y(d.name) + y.bandwidth() / 2)
+          .attr("dy", "0.35em")
+          .text(d => d.value)
+          .merge(labels)
+          .transition()
+          .duration(1000)
+          .attr("x", d => x(d.value) - 3)
+          .attr("y", d => y(d.name) + y.bandwidth() / 2)
+          .text(d => d.value);
+
+        // Sélectionner les noms de catégories existants
+        const names = g.selectAll(".bar-name")
+          .data(formattedData, d => d.name);
+
+        // Ajouter les nouveaux noms ou mettre à jour les existants
+        names.enter()
+          .append("text")
+          .attr("class", "bar-name")
+          .attr("x", d => x(d.value) + 5)  // Positionnement à droite de la barre
+          .attr("y", d => y(d.name) + y.bandwidth() / 2)
+          .attr("dy", "0.35em")
+          .text(d => d.name)
+          .merge(names)
+          .transition()
+          .duration(1000)
+          .attr("x", d => x(d.value) + 5)  // Positionnement à droite de la barre
+          .attr("y", d => y(d.name) + y.bandwidth() / 2)
+          .text(d => d.name);
+
+        // Supprimer les éléments qui ne sont plus nécessaires
+        bars.exit().remove();
+        labels.exit().remove();
+        names.exit().remove();
+      };
     
-    g.selectAll(".bar-name")
-          .data(values, d => d.name)
-          .join("text")
-            .attr("class", "bar-name")
-            .attr("x", d => x(d.value) + 5)  
-            .attr("y", d => y(d.name) + y.bandwidth() / 2)
-            .attr("dy", "0.35em")
-            .text(d => d.name);
-};
+    
  const startAnimation = () => {
         if (interval) {clearInterval(interval);}
         interval = setInterval(() => {
           update(dates[index]);
           index = (index + 1) % dates.length;
-        }, 200); 
+        }, 400); 
       };
    
   document.getElementById("start-button").addEventListener("click", startAnimation);
