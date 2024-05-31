@@ -90,7 +90,7 @@ d3.json("data.json").then(data => {
           .attr("height", y.bandwidth())
           .merge(bars)
           .transition()
-          .duration(1000)
+          .duration(300)
           .attr("y", d => y(d.name))
           .attr("width", d => x(d.value));
 
@@ -108,7 +108,7 @@ d3.json("data.json").then(data => {
           .text(d => d.value)
           .merge(labels)
           .transition()
-          .duration(1000)
+          .duration(300)
           .attr("x", d => x(d.value) - 3)
           .attr("y", d => y(d.name) + y.bandwidth() / 2)
           .text(d => d.value);
@@ -127,7 +127,7 @@ d3.json("data.json").then(data => {
           .text(d => d.name)
           .merge(names)
           .transition()
-          .duration(1000)
+          .duration(300)
           .attr("x", d => x(d.value) + 5)  // Positionnement à droite de la barre
           .attr("y", d => y(d.name) + y.bandwidth() / 2)
           .text(d => d.name);
@@ -144,7 +144,7 @@ d3.json("data.json").then(data => {
         interval = setInterval(() => {
           update(dates[index]);
           index = (index + 1) % dates.length;
-        }, 400); 
+        }, 500); 
       };
    
   document.getElementById("start-button").addEventListener("click", startAnimation);
