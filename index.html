@@ -97,16 +97,15 @@ d3.json("data.json").then(data => {
         .attr("dy", "0.35em")
         .text(d => d.value);
     
-    g.selectAll(".bar-image")
-          .data(values, d => d.name)
-          .join("image")
-            .attr("class", "bar-image")
-            .attr("xlink:href", d => imageMap[d.name])
+    g.selectAll(".bar-name")
+          .data(formattedData, d => d.name)
+          .join("text")
+            .attr("class", "bar-name")
             .attr("x", d => x(d.value) + 5)  // Positionnement à droite de la barre
-            .attr("y", d => y(d.name) + (y.bandwidth() - 30) / 2)  // Centré verticalement
-            .attr("width", 30)
-            .attr("height", 30);
-  };
+            .attr("y", d => y(d.name) + y.bandwidth() / 2)
+            .attr("dy", "0.35em")
+            .text(d => d.name);
+    
  const startAnimation = () => {
     if (interval) {clearInterval(interval);}
     interval = setInterval(() => {
