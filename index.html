@@ -14,11 +14,11 @@
       fill: #f3703c;
     }
     .bar-name {
-      font-size: 12px;
+      font-size: 20px;
       fill: black;
     }
     .axis-label {
-      font-size: 12px;
+      font-size: 20px;
       text-anchor: end;
     }
     .Bigdate{ font-size:100px; bottom:3px; right:10px}
@@ -38,7 +38,7 @@
    <img src="img/export.png" alt="Gfull" width="100%"> 
   <h3 id="date_step" class="Bigdate"></h3>
   <button class="btn" id="start-button">Start</button>
-  <svg height="1000" width="800" >
+  <svg height="1100" width="900" >
 </svg>
   
   
@@ -47,7 +47,7 @@
   
 
 const svg = d3.select("svg");
-const margin = {top: 20, right: 30, bottom: 40, left: 90};
+const margin = {top: 20, right: 20, bottom: 40, left: 80};
 const width = +svg.attr("width") - margin.left - margin.right;
 const height = +svg.attr("height") - margin.top - margin.bottom;
 
