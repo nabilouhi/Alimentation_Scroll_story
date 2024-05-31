@@ -17,6 +17,7 @@
   </style>
 </head>
 <body>
+  <button onclick="start()">Start</button>
   <svg width="900" height="400"></svg>
   <h3 id="date_step" class="Bigdate"></h3>
 </body>
@@ -89,13 +90,15 @@ d3.json("data.json").then(data => {
             .attr("height", 30);
   };
 
+  
   const step = () => {
     update(dates[index]);
     index = (index + 1) % dates.length;
   };
-
-  d3.interval(step, 100); // Change la vitesse ici
 });
+  function start(){
+  d3.interval(step, 100); // Change la vitesse ici
+}
 
 </script>
 </html>
