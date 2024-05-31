@@ -98,7 +98,7 @@ d3.json("data.json").then(data => {
         .text(d => d.value);
     
     g.selectAll(".bar-name")
-          .data(formattedData, d => d.name)
+          .data(values, d => d.name)
           .join("text")
             .attr("class", "bar-name")
             .attr("x", d => x(d.value) + 5)  // Positionnement à droite de la barre
