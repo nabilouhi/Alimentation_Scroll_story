@@ -39,14 +39,7 @@ const x = d3.scaleLinear().range([0, width]);
 const y = d3.scaleBand().range([0, height]).padding(0.1);
 var index = 0;  
 let interval="";
-// Mappage des catégories aux URLs des images
-const imageMap = {
-  "Bovins": "img/bovins.png",
-  "Porcs": "img/porcs.png",
-  "Ovins et caprins": "img/ovins.png",
-  "Volailles": "img/volailles.png",
-  "Autres viandes": "img/autresv.png"
-};  
+ 
 
 d3.json("data.json").then(data => {
   const dates = data.map(d => d.Year);
@@ -111,7 +104,7 @@ d3.json("data.json").then(data => {
         interval = setInterval(() => {
           update(dates[index]);
           index = (index + 1) % dates.length;
-        }, 1000); // Mettre à jour toutes les secondes
+        }, 100); 
       };
    
   document.getElementById("start-button").addEventListener("click", startAnimation);
