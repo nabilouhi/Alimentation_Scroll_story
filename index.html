@@ -103,15 +103,13 @@ d3.json("data.json").then(data => {
             .attr("width", 30)
             .attr("height", 30);
   };
-
-  
-  const step = () => {
-    update(dates[index]);
-    index = (index + 1) % dates.length;
-  };
-  function start(){
-  d3.interval(step, 100); // Change la vitesse ici
-}
+ const startn = () => {
+    if (interval) {clearInterval(interval);}
+    interval = setInterval(() => {
+      update(dates[index]);
+      index = (index + 1) % dates.length;}, 100); // Mettre à jour toutes les secondes
+    };
+ 
 });
   
 
