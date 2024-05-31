@@ -75,7 +75,7 @@ d3.json("data.json").then(data => {
           { name: "Fromage", value: v.Fromage },
           { name: "Œufs", value: v.Œufs }
         ];
-    
+    values.sort((a, b) => b.value - a.value);
     x.domain([0, d3.max(values, d => d.value)]);
     y.domain(values.map(d => d.name));
     
@@ -101,17 +101,19 @@ d3.json("data.json").then(data => {
           .data(values, d => d.name)
           .join("text")
             .attr("class", "bar-name")
-            .attr("x", d => x(d.value) + 5)  // Positionnement à droite de la barre
+            .attr("x", d => x(d.value) + 5)  
             .attr("y", d => y(d.name) + y.bandwidth() / 2)
             .attr("dy", "0.35em")
             .text(d => d.name);
-    
+
  const startAnimation = () => {
-    if (interval) {clearInterval(interval);}
-    interval = setInterval(() => {
-      update(dates[index]);
-      index = (index + 1) % dates.length;}, 100); 
-    };
+        if (interval) {clearInterval(interval);}
+        interval = setInterval(() => {
+          update(dates[index]);
+          index = (index + 1) % dates.length;
+        }, 1000); // Mettre à jour toutes les secondes
+      };
+   
   document.getElementById("start-button").addEventListener("click", startAnimation);
   update(dates[index]);
  
