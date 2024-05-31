@@ -103,7 +103,7 @@ d3.json("data.json").then(data => {
             .attr("width", 30)
             .attr("height", 30);
   };
- const startn = () => {
+ const startAnimation = () => {
     if (interval) {clearInterval(interval);}
     interval = setInterval(() => {
       update(dates[index]);
