@@ -97,14 +97,7 @@ d3.json("data.json").then(data => {
         .attr("dy", "0.35em")
         .text(d => d.value);
     
-    g.selectAll(".bar-name")
-          .data(values, d => d.name)
-          .join("text")
-            .attr("class", "bar-name")
-            .attr("x", d => x(d.value) + 5)  
-            .attr("y", d => y(d.name) + y.bandwidth() / 2)
-            .attr("dy", "0.35em")
-            .text(d => d.name);
+
 
  const startAnimation = () => {
         if (interval) {clearInterval(interval);}
