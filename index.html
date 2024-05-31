@@ -38,7 +38,7 @@ const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.t
 const x = d3.scaleLinear().range([0, width]);
 const y = d3.scaleBand().range([0, height]).padding(0.1);
 var index = 0;  
-let interval;
+let interval="";
 // Mappage des catégories aux URLs des images
 const imageMap = {
   "Bovins": "img/bovins.png",
@@ -110,7 +110,7 @@ d3.json("data.json").then(data => {
     if (interval) {clearInterval(interval);}
     interval = setInterval(() => {
       update(dates[index]);
-      index = (index + 1) % dates.length;}, 100); // Mettre à jour toutes les secondes
+      index = (index + 1) % dates.length;}, 100); 
     };
   document.getElementById("start-button").addEventListener("click", startAnimation);
   update(dates[index]);
