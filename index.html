@@ -109,10 +109,11 @@ d3.json("data.json").then(data => {
     update(dates[index]);
     index = (index + 1) % dates.length;
   };
-});
   function start(){
   d3.interval(step, 100); // Change la vitesse ici
 }
+});
+  
 
 </script>
 </html>
