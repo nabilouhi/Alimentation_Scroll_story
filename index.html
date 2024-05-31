@@ -49,7 +49,6 @@ d3.json("data.json").then(data => {
     const v = data.find(d => d.Year === date_step)
     const values = [
           { name: "Volaille", value: v.Volaille },
-          { name: "Autres_viandes", value: v["Autres_viandes"] },
           { name: "Vin", value: v.Vin },
           { name: "Oranges", value: v.Oranges },
           { name: "Pommes", value: v.Pommes },
