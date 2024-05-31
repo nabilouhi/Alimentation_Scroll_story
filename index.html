@@ -5,6 +5,10 @@
   <title>Revolution alimentaire</title>
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <style>
+    html, body {
+  width: 100%;
+  height: 100%;
+}
     
     .bar {
       fill: #f3703c;
@@ -34,7 +38,9 @@
    <img src="img/export.jpg" alt="Gfull" width="100%"> 
   <h3 id="date_step" class="Bigdate"></h3>
   <button class="btn" id="start-button">Start</button>
-  <svg width="100%" height="400"></svg>
+  <svg height="100%" width="100%" viewBox="0 0 100 100"  preserveAspectRatio="none">
+</svg>
+  
   
 </body>
 <script type="text/javascript">
